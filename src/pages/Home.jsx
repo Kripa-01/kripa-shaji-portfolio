@@ -1,8 +1,5 @@
 // pages/Home.jsx
-import React from 'react'
 import Navbar from '../components/Navbar'
-import ReviewCard from '../components/ReviewCard'
-import ExpertiseCard from '../components/ExpertiseCard'
 import WhoAmI from '../components/WhoAmI'
 import HeroSection from '../components/Herosection'
 import MySkills from '../components/Myskills'

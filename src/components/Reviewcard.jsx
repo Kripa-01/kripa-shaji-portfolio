@@ -1,5 +1,5 @@
 // components/ReviewCard.jsx
-import React from 'react';
+
 
 const ReviewCard = () => {
   return (

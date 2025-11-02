@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Mail, Phone, Github, Linkedin, Instagram, Send, MapPin } from 'lucide-react';
 import SplitText from './SplitText';
 

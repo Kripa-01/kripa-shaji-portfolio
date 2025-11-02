@@ -1,5 +1,4 @@
 // components/ExpertiseCard.jsx
-import React from 'react';
 
 const ExpertiseCard = () => {
   const skills = [

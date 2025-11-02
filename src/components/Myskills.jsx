@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -16,7 +15,6 @@ import Azure from "../assets/azure.jpeg";
 import Docker from "../assets/docker.png";
 import GoogleCloud from "../assets/google-cloud.png";
 import Python from "../assets/python.png";
-import Ai from "../assets/Ai.png";
 import SplitText from "./SplitText";
 
 const MySkills = () => {

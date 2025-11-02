@@ -1,4 +1,3 @@
-import React from 'react';
 import SplitText from './SplitText';
 import Typewriter from "typewriter-effect";
 const WhoAmI = () => {
