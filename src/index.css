@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+*{
+    background: black;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+
+
+}
+
+
+/* * {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
