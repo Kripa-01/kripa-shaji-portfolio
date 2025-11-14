@@ -1,6 +1,8 @@
 import  { useState } from 'react';
 import { Mail, Phone, Github, Linkedin, Instagram, Send, MapPin } from 'lucide-react';
 import SplitText from './SplitText';
+import emailjs from "emailjs-com";
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -66,12 +68,29 @@ const Contact = () => {
     }
   ];
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Message sent! (This is a demo)');
+const handleSubmit = (e) => {
+  e.preventDefault();
+console.log(formData)
+  emailjs.send(
+    "service_tyzbsrl",
+    "template_mbp9w6d",
+    {
+      from_name: formData.name,
+      reply_to: formData.email, 
+      message: formData.message
+    },
+    "toMq7pfFeaDMZktjg"
+  )
+  .then(() => {
+    alert("Message sent successfully!");
     setFormData({ name: '', email: '', message: '' });
-  };
+  })
+  .catch((error) => {
+    console.error("EmailJS Error:", error);
+    alert("Failed to send message. Try again later.");
+  });
+};
+
 
   const handleChange = (e) => {
     setFormData({
