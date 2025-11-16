@@ -5,6 +5,7 @@ import HeroSection from '../components/Herosection'
 import MySkills from '../components/Myskills'
 import Contact from '../components/Contact'
 import MyProjects from '../components/Project'
+import Certificates from '../components/Certificates'
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
 <MyProjects />
       {/* My Skills Section */}
       <MySkills />
+      <Certificates />
       <Contact />
     </div>
   )

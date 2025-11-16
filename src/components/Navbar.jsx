@@ -24,7 +24,7 @@ const Navbar = () => {
               <path d="M2 12l10 5 10-5" />
             </svg>
           </div>
-          <span className="text-white font-semibold text-sm">REACTIVE</span>
+          {/* <span className="text-white font-semibold text-sm">REACTIVE</span> */}
         </div>
 
         {/* Desktop Navigation Links */}
