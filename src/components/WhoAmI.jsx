@@ -2,7 +2,7 @@ import SplitText from './SplitText';
 import Typewriter from "typewriter-effect";
 const WhoAmI = () => {
   return (
-    <section id="about" className="relative  bg-gradient-to-br from-gray-900 via-blue-950 to-gray-900 py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section id="about" className="relative  bg-black py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Background glow effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-transparent to-transparent" />
       

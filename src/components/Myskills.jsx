@@ -212,7 +212,7 @@ const MySkills = () => {
   return (
     <div
       name="Skill"
-      className="relative w-full min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 p-4 text-white overflow-hidden"
+      className="relative w-full min-h-screen bg-black p-4 text-white overflow-hidden"
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -445,14 +445,7 @@ const MySkills = () => {
 
       </div>
 
-      {/* Bottom decorative elements */}
-      <motion.div
-        className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-lime-400 to-transparent"
-        initial={{ scaleX: 0 }}
-        whileInView={{ scaleX: 1 }}
-        transition={{ duration: 1.5, delay: 0.5 }}
-        viewport={{ once: true }}
-      />
+
     </div>
   );
 };

@@ -74,7 +74,7 @@ const MyProjects = () => {
   }, [isAutoPlaying, maxIndex]);
 
   return (
-    <section id="projects" className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section id="projects" className="relative min-h-screen bg-black py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating orbs */}
