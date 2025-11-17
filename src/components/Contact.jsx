@@ -43,8 +43,8 @@ const Contact = () => {
       id: 1,
       icon: <Github className="w-6 h-6 sm:w-7 sm:h-7" />,
       name: 'GitHub',
-      username: '@kripashaji',
-      href: 'https://github.com/kripashaji',
+      username: '@Kripa-01',
+      href: 'https://github.com/Kripa-01',
       color: 'hover:bg-gray-700',
       gradient: 'from-gray-600 to-gray-800'
     },
@@ -53,7 +53,7 @@ const Contact = () => {
       icon: <Linkedin className="w-6 h-6 sm:w-7 sm:h-7" />,
       name: 'LinkedIn',
       username: 'kripashaji',
-      href: 'https://linkedin.com/in/kripashaji',
+      href: 'https://www.linkedin.com/in/kripa-shaji-0085b8238/',
       color: 'hover:bg-blue-600',
       gradient: 'from-blue-500 to-blue-700'
     },
@@ -61,8 +61,8 @@ const Contact = () => {
       id: 3,
       icon: <Instagram className="w-6 h-6 sm:w-7 sm:h-7" />,
       name: 'Instagram',
-      username: '@kripashaji',
-      href: 'https://instagram.com/kripashaji',
+      username: '@_kripa_shaji_',
+      href: 'https://www.instagram.com/_kripa_shaji_?igsh=anVrbGk2bTVieW45&utm_source=qr',
       color: 'hover:bg-gradient-to-br hover:from-purple-500 hover:via-pink-500 hover:to-orange-500',
       gradient: 'from-purple-500 via-pink-500 to-orange-500'
     }

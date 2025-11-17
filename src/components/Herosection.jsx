@@ -47,13 +47,13 @@ const HeroSection = () => {
         </div>
         
         {/* Title */}
-        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-2 sm:mt-4 bg-amber-400">
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-2 sm:mt-4 ">
 <BlurText
   text="AI & Web Developer"
   delay={350}
   animateBy="words"
   direction="top"
-  className="text-4xl mb-8 text-center flex bg-amber-400 justify-center"
+  className="text-4xl mb-8 text-center flex  justify-center"
 />
         </p>
         

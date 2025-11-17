@@ -26,21 +26,24 @@ const Navbar = () => {
           <a href="#about" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
             ABOUT ME
           </a>
+          <a href="#projects" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
+            PROJECTS
+          </a>
           <a href="#skills" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
             SKILLS
           </a>
-          <a href="#projects" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
-            PROJECTS
+          <a href="#certificates" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">
+            CERTIFICATES
           </a>
         </div>
 
         {/* Desktop Contact Button */}
-        <button className="hidden md:flex items-center gap-2 bg-gray-800/50 hover:bg-gray-700/50 text-white px-6 py-3 rounded-full border border-gray-700 transition-all">
+        <a href='#contact' className="hidden md:flex items-center gap-2 bg-gray-800/50 hover:bg-gray-700/50 text-white px-6 py-3 rounded-full border border-gray-700 transition-all">
           <span className="text-sm font-medium">CONTACT</span>
           <div className="w-6 h-6 bg-lime-400 rounded-full flex items-center justify-center">
             <ArrowUpRight className="w-4 h-4 text-gray-900" />
           </div>
-        </button>
+        </a>
 
         {/* Mobile Menu Toggle */}
         <button
@@ -67,6 +70,13 @@ const Navbar = () => {
             ABOUT ME
           </a>
           <a
+            href="#projects"
+            onClick={closeMenu}
+            className="text-gray-300 hover:text-white hover:bg-gray-800/50 transition-all text-sm font-medium px-4 py-3 rounded-lg"
+          >
+            PROJECTS
+          </a>
+          <a
             href="#skills"
             onClick={closeMenu}
             className="text-gray-300 hover:text-white hover:bg-gray-800/50 transition-all text-sm font-medium px-4 py-3 rounded-lg"
@@ -74,11 +84,11 @@ const Navbar = () => {
             SKILLS
           </a>
           <a
-            href="#projects"
+            href="#certificates"
             onClick={closeMenu}
             className="text-gray-300 hover:text-white hover:bg-gray-800/50 transition-all text-sm font-medium px-4 py-3 rounded-lg"
           >
-            PROJECTS
+            CERTIFICATES
           </a>
           <button className="flex items-center justify-center gap-2 bg-gray-800/50 hover:bg-gray-700/50 text-white px-6 py-3 rounded-full border border-gray-700 transition-all mt-2">
             <span className="text-sm font-medium">CONTACT</span>
