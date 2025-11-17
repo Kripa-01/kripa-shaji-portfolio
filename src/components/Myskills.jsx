@@ -13,9 +13,9 @@ import java from "../assets/java.png";
 import aws from "../assets/aws.png";
 import Git from "../assets/git.png";
 import Tailwind from "../assets/tailwind.png";
-import Azure from "../assets/azure.jpeg";
+import Azure from "../assets/azure1.png";
 import Docker from "../assets/docker.png";
-import GoogleCloud from "../assets/google-cloud.png";
+import GoogleCloud from "../assets/google.png";
 import Python from "../assets/python.png";
 import SplitText from "./SplitText";
 
@@ -338,7 +338,7 @@ const MySkills = () => {
               {/* Card container */}
               <div className="perspective-1000">
                 <motion.div
-                  className={`relative bg-gradient-to-br from-gray-800/60 to-gray-900/60 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 transition-all duration-500 ${style} shadow-lg overflow-hidden`}
+                  className={`relative bg-gradient-to-br from-gray-800/60 to-gray-900/60 backdrop-blur-sm rounded-2xl p-4 md:p-6 border border-gray-700/50 transition-all duration-500 ${style} shadow-lg overflow-hidden`}
                   whileHover={{ borderColor: "rgba(163, 230, 53, 0.5)" }}
                 >
                   {/* Glow effect on hover */}
@@ -367,7 +367,7 @@ const MySkills = () => {
                     <motion.img
                       src={src}
                       alt={title}
-                      className="w-10 h-10 mx-auto object-contain drop-shadow-2xl"
+                      className="w-10 h-10 mx-auto object-contain drop-shadow-2xl "
                       whileHover={{
                         rotate: [0, -5, 5, 0],
                         scale: 1,

@@ -45,18 +45,28 @@ const Certificates = () => {
         {/* Only images */}
         <div className="grid md:grid-cols-2 gap-8 ">
           {certificates.map((cert) => (
-            <div 
-              key={cert.id}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 cursor-pointer group"
-            >
-<div className="relative w-full h-[680px] bg-white flex items-center justify-center overflow-hidden">
-  <img 
-    src={cert.image} 
-    alt="Certificate"
-    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-  />
+<div
+  key={cert.id}
+  className="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl 
+             transition-all duration-300 cursor-pointer group  bg-white flex"
+>
+  <div className="relative w-full bg-transparent overflow-hidden flex  justify-center items-center ">
+
+    <img
+      src={cert.image}
+      alt="Certificate"
+      className="
+        w-full 
+        h-auto 
+        object-cover 
+        group-hover:scale-105 
+        transition-transform 
+        duration-300
+      "
+    />
+  </div>
 </div>
-            </div>
+
           ))}
         </div>
 
